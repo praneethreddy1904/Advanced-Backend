@@ -1,0 +1,28 @@
+# ---------- Frontend (React + Vite) ----------
+node_modules/
+dist/
+.vite/
+*.local
+
+# ---------- Backend (Python + FastAPI) ----------
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ---------- Secrets: never push these ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Logs ----------
+*.log
+npm-debug.log*
+
+# ---------- Editor and OS files ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
